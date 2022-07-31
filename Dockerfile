@@ -1,6 +1,7 @@
 FROM jenkins/jenkins:lts
 LABEL maintainer="nosirromd@gmail.com"
-ENV REFRESHED_AT 2022-06-15
+ENV REFRESHED_AT 2022-07-31
+
 
 USER root
 RUN apt-get update; apt-get install -qqy sudo wget
