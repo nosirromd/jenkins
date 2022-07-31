@@ -13,7 +13,7 @@ Using Docker for continuous integration
         Running our Docker-Jenkins image
         Checking the Docker Jenkins container logs
         Checking that is Jenkins up and running
-        admin/469686af8be946698adad1a1d8c0e263
+        admin/4a5f221dd54c4b14b7b3962458132449
     Create a new Jenkins job
         Creating a new Jenkins job
         The Docker shell script for Jenkins jobs
