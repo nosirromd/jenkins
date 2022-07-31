@@ -11,6 +11,6 @@ RUN tar -xvzf docker-latest.tgz
 RUN mv docker/* /usr/bin/
 
 USER jenkins
-RUN /usr/local/bin/install-plugins.sh jaxb junit git git-client ssh-slaves greenballs chucknorris ws-cleanup
+RUN jenkins-plugin-cli --plugins jaxb junit git git-client ssh-slaves greenballs chucknorris ws-cleanup
 
 
